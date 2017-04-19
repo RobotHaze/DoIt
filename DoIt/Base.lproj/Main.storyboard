@@ -37,7 +37,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Do It" id="gIC-wb-wJ0">
                         <barButtonItem key="backBarButtonItem" title="Back" id="07x-k5-hAG"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="jPn-iE-8cp">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="jPn-iE-8cp">
                             <connections>
                                 <action selector="plusTapped:" destination="BYZ-38-t0r" id="fcI-jT-J0i"/>
                             </connections>
@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="806" y="-575"/>
         </scene>
-        <!--Create Task View Conroller-->
+        <!--Create Task View Controller-->
         <scene sceneID="88E-q8-Ppa">
             <objects>
-                <viewController id="Y3i-TU-oHI" customClass="CreateTaskViewConroller" customModule="DoIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y3i-TU-oHI" customClass="CreateTaskViewController" customModule="DoIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wF2-Fg-v75"/>
                         <viewControllerLayoutGuide type="bottom" id="QfK-cV-MjM"/>

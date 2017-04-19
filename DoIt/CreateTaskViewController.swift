@@ -1,5 +1,5 @@
 //
-//  CreateTaskViewConroller.swift
+//  CreateTaskViewController.swift
 //  DoIt
 //
 //  Created by Hayley Woodard on 4/19/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateTaskViewConroller: UIViewController {
+class CreateTaskViewController: UIViewController {
 
     @IBOutlet weak var importantSwitch: UISwitch!
     @IBOutlet weak var taskNameTextField: UITextField!
