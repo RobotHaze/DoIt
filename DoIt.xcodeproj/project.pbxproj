@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13E159C1EAE9B12003ABA0E /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13E159B1EAE9B12003ABA0E /* CompleteTaskViewController.swift */; };
 		B1CC95351EA7F746009B7701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC95341EA7F746009B7701 /* AppDelegate.swift */; };
 		B1CC95371EA7F746009B7701 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC95361EA7F746009B7701 /* TasksViewController.swift */; };
 		B1CC953A1EA7F746009B7701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CC95381EA7F746009B7701 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B13E159B1EAE9B12003ABA0E /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 		B1CC95311EA7F746009B7701 /* DoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CC95341EA7F746009B7701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1CC95361EA7F746009B7701 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				B1CC95341EA7F746009B7701 /* AppDelegate.swift */,
 				B1CC95361EA7F746009B7701 /* TasksViewController.swift */,
+				B13E159B1EAE9B12003ABA0E /* CompleteTaskViewController.swift */,
 				B1CC95491EA7FB37009B7701 /* Task.swift */,
 				B1CC954B1EA80189009B7701 /* CreateTaskViewController.swift */,
 				B1CC95381EA7F746009B7701 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 			files = (
 				B1CC954A1EA7FB37009B7701 /* Task.swift in Sources */,
 				B1CC953D1EA7F746009B7701 /* DoIt.xcdatamodeld in Sources */,
+				B13E159C1EAE9B12003ABA0E /* CompleteTaskViewController.swift in Sources */,
 				B1CC954C1EA80189009B7701 /* CreateTaskViewController.swift in Sources */,
 				B1CC95371EA7F746009B7701 /* TasksViewController.swift in Sources */,
 				B1CC95351EA7F746009B7701 /* AppDelegate.swift in Sources */,
